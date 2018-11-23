@@ -1,5 +1,5 @@
 
-Boiler plate for NodeJS (with Express.js) and MySQL (with sequalize)
+Boilerplate for NodeJS (with Express.js) and MySQL (with sequalize)
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/dmarczydlo/node-boilerplate.svg)](https://greenkeeper.io/)
 [![dependencies Status](https://david-dm.org/dmarczydlo/node-boilerplate/status.svg)](https://david-dm.org/dmarczydlo/node-boilerplate)
