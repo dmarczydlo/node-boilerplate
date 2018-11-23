@@ -4,9 +4,9 @@ const usersController = require(path.resolve('controllers/users.js'));
 const router = express.Router();
 
 router
-    .route('/')
-    .get(usersController.get);
+  .route('/')
+  .get(usersController.get);
 
 module.exports = (app) => {
-    app.use('/users', router);
+  app.use('/users', router);
 };
