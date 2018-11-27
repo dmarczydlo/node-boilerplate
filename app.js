@@ -7,8 +7,8 @@ const server = http.createServer(app);
 
 require('./routers')(express, app);
 
-server.listen( config.port, config.host, function() {
-    console.log('Express server on port ' + config.port);
+server.listen( config.port, config.host, () => {
+
 });
 
 module.exports = server;

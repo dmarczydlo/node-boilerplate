@@ -4,6 +4,6 @@ const { getUsers } = require(path.resolve('managers/users'));
 
 
 module.exports.get = async (req, res) => {
-    getUsers().then(users => returnSuccess(res, users)
-    ).catch(error => returnError(res, error));
+  getUsers().then(users => returnSuccess(res, users)
+  ).catch(error => returnError(res, error));
 };
