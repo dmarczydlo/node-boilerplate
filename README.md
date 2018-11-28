@@ -15,4 +15,5 @@ Boilerplate for NodeJS (with Express.js) and MySQL (with sequalize)
 * pm2
 * chai
 * mocha
+* Helmet
 
