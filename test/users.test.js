@@ -1,9 +1,9 @@
-const chai = require('chai');
-
+const { expect } = require('chai');
+const { describe, it } = require('mocha');
 
 describe('Test', () => {
   it('first test', (done) => {
-    chai.expect([1, 2, 3]).to.have.lengthOf(3);
+    expect([1, 2, 3]).to.have.lengthOf(3);
     done();
   });
 });
