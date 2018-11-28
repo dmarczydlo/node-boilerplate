@@ -1,4 +1,5 @@
-const {describe, it, expect} = require('chai');
+const { expect } = require('chai');
+const { describe, it } = require('mocha');
 
 describe('Test', () => {
   it('first test', (done) => {
